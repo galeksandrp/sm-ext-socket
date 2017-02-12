@@ -1,4 +1,4 @@
-FROM galeksandrp/sourcemod:1.8-dev
+FROM galeksandrp/sourcemod:docker-1.8-dev
 RUN apt-get update
 RUN apt-get install -y unzip
 WORKDIR /root/css/cstrike
